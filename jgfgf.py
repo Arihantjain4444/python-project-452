@@ -15,7 +15,7 @@ def forEvenNumber(n):
     for i in range(n // 4, 3 * (n // 4)):
         for j in range(n // 4, 3 * (n // 4)):
             arr[i][j] = (n * n + 1) - arr[i][j];
-    print("\nSum of all row, column and diagonals = ",
+    print("\nSum of the all row, column and diagonals = ",
           n * (n * n + 1) // 2, "\n")
     for i in range(n):
         for j in range(n):
